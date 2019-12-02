@@ -35,5 +35,3 @@ for noun in range(len(intcode_program_default)):
         if intcode_program[0] == output:
             print(f'Solution is: {100*noun+verb}\nFound for noun={noun} and verb={verb}')
             break
-
-verb, noun
